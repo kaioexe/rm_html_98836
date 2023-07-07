@@ -1,0 +1,100 @@
+:root {
+    --button-color: #F55800;
+}
+
+body {
+    background-color: #292929;
+    font-family: 'Lato', sans-serif;
+}
+
+.navbar {
+    background-color: #F55800;
+}
+
+.logo_image {
+    height: 40px;
+    width: 38px;
+}
+
+.navbar,
+.navbar-nav,
+.nav-item,
+a {
+    padding: 5px;
+}
+
+.btn-outline-dark:hover {
+    background-color: #292929;
+}
+
+.navbar,
+.nav-but,
+.navbar-nav {
+    padding: 5px;
+}
+
+.conteudo_texto {
+    margin: 15px;
+}
+
+.texto__ {
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-left: 12px;
+}
+
+.img-fluid {
+    border: 3px solid #f55850;
+    border-radius: 12px;
+}
+
+.paragrafo__ {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.btn-success {
+    margin-top: 20px;
+}
+
+.text-center {
+    background-color: #F55800;
+}
+
+.card-text {
+    color: #292929;
+}
+
+/* Media queries */
+@media (min-width: 576px) {
+    .texto__ {
+        font-size: 28px;
+        margin: 30px;
+    }
+
+    .paragrafo__ {
+        font-size: 18px;
+        margin: 30px;
+    }
+}
+
+@media (min-width: 992px) {
+    .img-fluid {
+        max-width: 80%;
+        margin: 30px;
+    }
+
+    .conteudo_texto {
+        margin: 30px;
+    }
+
+    .texto__ {
+        font-size: 32px;
+        margin: 50px;
+    }
+
+    .paragrafo__ {
+        font-size: 20px;
+        margin: 50px;
+    }
+}
